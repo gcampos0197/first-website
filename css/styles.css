@@ -1,0 +1,165 @@
+
+/*.background{*/
+/*    background-image: url('../images/thisone.jpg');*/
+/*    background-position: center;*/
+/*    background-size: 70%;*/
+/*    background-repeat: no-repeat;*/
+/*    height: 800px;*/
+/*}*/
+/*.header{*/
+/*    color: pink;*/
+/*    text-align: center;*/
+/*}*/
+/******************Home-Styles********************/
+body {
+    margin: 0;
+}
+/***************Main-Nav-Styles***************/
+.main-nav {
+    height:60px;
+    background-color:#0e2f44;
+    margin-bottom: 25px;
+    width:100%;
+    position:fixed;
+    top:0px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav-list{
+    float: right;
+    list-style: none;
+}
+
+.nav-item{
+    float: left;
+    margin-left: 15px;
+    font-family: 'Tangerine', cursive;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #ee632f;
+}
+
+.nav-link:hover{
+    color:white;
+}
+
+/***************Hero-styles*****************/
+.hero-background{
+    background-image: url('../images/stomach.jpg');
+    height:450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-top: 85px;
+}
+
+.hero-text{
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+
+section{
+    height:450px;
+}
+
+.column{
+    width:30%;
+    float:left;
+    text-align: center;
+    margin-left: 25px;
+    border:2px solid grey;
+    margin-top: 25px;
+    background-color: #f0f8ff;
+}
+
+.column-img{
+    height:150px;
+    
+}
+
+/**************Footer-Styles*************/
+footer{
+    color:white;
+   border-top: 2px solid grey; 
+   background-color: #0e2f44;
+   height:300px;
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+i.fa {
+    font-size:20px;
+    float:right;
+}
+
+.media-links{
+    float:right;
+}
+
+.social-links > .fa{
+    color:white;
+}
+
+.social-links > .fa:hover{
+    color:red;
+    
+}
+/******************contact*******************/
+.contact-info {
+    width: 50%;
+    margin-left:25%;
+}
+/********************about*******************/
+
+.about-container{
+    height: 400px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.about-column{
+    width:40%;
+    float: left;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.bio-header{
+    margin-top:38px;
+}
+.bio-text{
+    margin-bottom: 86px;
+}
+.about-img{
+    height:200px;
+    display: block;
+    margin: auto auto;
+}
+
+.about-button{
+    background-color:pink;
+    border-radius:6px;
+    padding: 5px;
+}
+
+.about-link {
+    color:teal;
+}
+
+.about-link:hover {
+    color:yellow;
+}
+
